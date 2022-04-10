@@ -1,0 +1,88 @@
+* {
+    background: white;
+    font-family: arial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* ALL ELEMENTS IN HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1, header h3 {
+    background: white;
+    flex-direction: column;
+}
+
+.headerBox{
+    width: 50%;
+    background: white;
+    border: 3px;
+    border-color: navy;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+
+/* ALL ELEMENTS IN SCHEDULE */
+.schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 25px;
+
+}
+
+.timeSlot{
+    display: flex;
+    gap: 10px;
+}
+
+.time, .task, .saveButton {
+    display: flex;
+    background: rgb(235, 247, 255);
+    border: 3px;
+    border-color: navy;
+    border-style: solid;
+    border-radius: 8px;
+    height: 50px;
+    padding: 15px;
+}
+
+.time {
+    width: 20%;
+}
+
+.task {
+    width: 50%;
+}
+
+main .task:hover {
+    border: 4 px;
+    border-color: green;
+}
+
+.task:focus{
+    background: gray;
+}
+
+.saveButton {
+    width: 20%;
+}
+
+.saveButton:hover {
+    background: lightblue;
+}
+
+#tableHead div {
+    background: slategray;
+    color: white;
+}
